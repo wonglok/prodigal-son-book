@@ -1,5 +1,7 @@
 # The Prodigal Son — Illustrated Storybook
 
+**Read it live:** https://wonglok.github.io/prodigal-son-book/
+
 An illustrated retelling of the Parable of the Lost Son (**Luke 15:11–32**) as a
 single-page, print-friendly web book. Ten illustrations are generated with fal's
 `openai/gpt-image-2.5/flare/text-to-image` model using a locked style and
