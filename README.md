@@ -53,8 +53,16 @@ npm run serve
 python3 -m http.server 8080
 ```
 
-Then open `http://localhost:8080`. The layout is responsive and includes print
+Then open `http://localhost:8080`. Turn pages with the arrow keys, the on-screen
+buttons, or a swipe; the URL hash (`#1`–`#12`) links to a specific page and the
+progress bar tracks your place. The layout is responsive and includes print
 styles — use the browser's "Print to PDF" for a landscape A4 book.
+
+The illustrations currently in `images/` are interim vector plates rendered from
+the Remotion illustration system (same characters, palette, and settings on every
+page). Running `npm run generate` replaces them with fal-generated art once
+`FAL_KEY` is configured; the page filenames are unchanged, so the HTML needs no
+edits.
 
 ## Deploy
 
