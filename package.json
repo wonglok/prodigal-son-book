@@ -1,0 +1,15 @@
+{
+  "name": "prodigal-son-book",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Illustrated storybook of the Prodigal Son (Luke 15:11-32)",
+  "scripts": {
+    "generate": "node scripts/generate_images.mjs",
+    "generate:dry": "node scripts/generate_images.mjs --dry-run",
+    "serve": "npx --yes serve ."
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.10.1"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "model": "openai/gpt-image-2.5/flare/text-to-image",
+  "style": "warm children's storybook illustration in soft gouache and watercolour, painterly texture, visible paper grain, golden Mediterranean light, gentle and dignified, full scene composition, no text, no lettering, no frame, no border",
+  "characters": {
+    "father": "the father, a kind Middle Eastern man in his late fifties with a grey-streaked full beard, deep warm eyes and smile lines, wearing a cream linen under-tunic, a russet-brown wool robe and a leather belt, simple leather sandals",
+    "younger": "the younger son, a lean nineteen-year-old Middle Eastern man with wavy dark-brown hair, a short patchy beard and tired hopeful eyes, wearing an ochre-yellow tunic with a brown sash and worn leather sandals",
+    "older": "the older son, a broad-shouldered Middle Eastern man in his early thirties with a short black beard, a stern brow and guarded eyes, wearing a slate-blue tunic and a dark-red cloak",
+    "estate": "the family estate in first-century Judea: a honey-coloured stone house with a flat roof and an arched wooden door, surrounded by olive trees and a dusty road under a wide warm sky",
+    "distant": "a distant foreign market town with terracotta rooftops, crowded dusty streets, camels and merchants, dry hills behind it",
+    "pigs": "a muddy pig pen on a foreign farm with a rough wooden fence, olive-green hills and a grey overcast sky"
+  },
+  "pages": [
+    {
+      "id": "characters",
+      "title": "Meet the Family",
+      "file": "characters.png",
+      "cast": ["father", "younger", "older", "estate"],
+      "scene": "a gentle group portrait of the three family members standing together in front of the stone house, full figures, warm afternoon light"
+    },
+    {
+      "id": "scene-01-request",
+      "title": "The Request",
+      "reference": "Luke 15:11–12",
+      "file": "scene-01-request.png",
+      "cast": ["father", "younger", "estate"],
+      "scene": "the younger son holds out an open hand to ask his father for his inheritance; the father listens with sorrow and love; a leather pouch of coins rests on a low stone table between them"
+    },
+    {
+      "id": "scene-02-distant",
+      "title": "The Far Country",
+      "reference": "Luke 15:13–14",
+      "file": "scene-02-distant.png",
+      "cast": ["younger", "distant"],
+      "scene": "the younger son walks into a noisy foreign market town with a travel bag over his shoulder, coins spilling from his hand, merchants and revellers around him"
+    },
+    {
+      "id": "scene-03-pigs",
+      "title": "The Pig Fields",
+      "reference": "Luke 15:15–16",
+      "file": "scene-03-pigs.png",
+      "cast": ["younger", "pigs"],
+      "scene": "the younger son, ragged and hungry, sits among pigs by a wooden fence, reaching toward the pods in a muddy trough, his clothes torn and dirty"
+    },
+    {
+      "id": "scene-04-repent",
+      "title": "He Came to His Senses",
+      "reference": "Luke 15:17–20",
+      "file": "scene-04-repent.png",
+      "cast": ["younger", "estate"],
+      "scene": "the younger son kneels alone on the dusty road at dusk, hands clasped, looking back toward the distant lights of his father's house"
+    },
+    {
+      "id": "scene-05-father-runs",
+      "title": "The Father Runs",
+      "reference": "Luke 15:20",
+      "file": "scene-05-father-runs.png",
+      "cast": ["father", "younger", "estate"],
+      "scene": "the father runs down the dusty road with his robe lifted, arms open, while the weary younger son lifts his head in disbelief; the stone house glows behind them"
+    },
+    {
+      "id": "scene-06-restored",
+      "title": "Restored",
+      "reference": "Luke 15:21–24",
+      "file": "scene-06-restored.png",
+      "cast": ["father", "younger", "estate"],
+      "scene": "the father places a fine white-and-gold robe on the younger son's shoulders and a gold signet ring on his finger; sandals wait on the ground; servants prepare a feast in the courtyard"
+    },
+    {
+      "id": "scene-07-older",
+      "title": "The Older Brother",
+      "reference": "Luke 15:25–30",
+      "file": "scene-07-older.png",
+      "cast": ["older", "estate"],
+      "scene": "the older son stands alone at the edge of the field at sunset, arms crossed, jaw tight, watching music and lamplight spill from the family house"
+    },
+    {
+      "id": "scene-08-plea",
+      "title": "The Father's Plea",
+      "reference": "Luke 15:31–32",
+      "file": "scene-08-plea.png",
+      "cast": ["father", "older", "estate"],
+      "scene": "the father steps outside the house and pleads gently with the older son, one hand on his arm, their faces close in the warm doorway light"
+    },
+    {
+      "id": "scene-09-open-door",
+      "title": "The Open Door",
+      "reference": "Luke 15:11–32",
+      "file": "scene-09-open-door.png",
+      "cast": ["father", "younger", "older", "estate"],
+      "scene": "the father stands in the open doorway with arms wide, the younger son beside him and the older son hesitating at the threshold, warm light pouring out into the evening"
+    }
+  ]
+}
